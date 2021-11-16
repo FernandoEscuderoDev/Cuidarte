@@ -34,7 +34,7 @@ header{
     align-items: center;
 }
 .header__div h1{
-    font-weight: 500;
+    font-weight: 700;
     font-size: 45px;
     color: white;
 }
@@ -92,7 +92,21 @@ section{
     width: 100%;
     height: auto;
 }
+ul{
+    margin-left: 20px;
+}
 
+ul li{
+    padding-top: 12.5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+p{
+    line-height: 24px;
+    font-size: 20px;
+    font-weight: 300;
+}
 .container-problem{
     display: flex;
     flex-direction: column;
@@ -106,6 +120,10 @@ section{
 .content-title{
     text-align: center;
     text-transform: uppercase;
+    padding: 15px;
+}
+.content-title h2{
+    font-weight: 700;
 }
 
 .container-problem .content-ploblem{
