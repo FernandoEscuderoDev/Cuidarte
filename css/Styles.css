@@ -197,26 +197,34 @@ p i{
     color: white;
     text-decoration: none;
     padding: 20px;
-    background-color: grey;
+    background-color: rgb(238, 109, 49);
     border-radius: 15px;
-    border: 3px solid rgb(92, 92, 92);
+    border: 3px solid rgb(172, 9, 58);
     box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.5);
     font-weight: bold;
 }
 .boton-team a:hover{
     background-color: white;
     color: grey;
-    border: 3px solid grey;
+    border: 3px solid rgb(8, 0, 0);
 }
 /*! Footer */
 
-footer{
-    background-color:black;
-    color: white;
-    font-weight: 500;
-    font-size: 10px;
-    width: 100%;
-    height: 80px;
-}
 .footer__div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 10px;
+    background-color: rgb(16, 17, 41);
+}
+.footer__div a{
+    
+    color: cornsilk;
+    text-decoration: none;
+}
+.footer__div a:hover{
+    color:rgb(77, 150, 245);
+
 }
