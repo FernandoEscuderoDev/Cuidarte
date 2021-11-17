@@ -103,7 +103,7 @@ ul li{
 }
 
 p{
-    line-height: 24px;
+    line-height: 22px;
     font-size: 20px;
     font-weight: 300;
 }
@@ -129,7 +129,7 @@ p{
 .container-problem .content-ploblem{
     display: flex;
     flex-direction: row;
-    margin: 2rem
+    margin: 2rem;
 }
 
 .container-problem .content-ploblem .div-img, .container-problem .content-ploblem .div-description{
@@ -137,13 +137,13 @@ p{
 }
 
 .container-problem .content-ploblem .div-description{
-    padding:20px
+    padding:20px;
 }
 
 .container-bg{
     width: 100%;
     height: auto;
-    background: linear-gradient(to left, #3f3c3d59, #00000098), url(../img/solucion-bg.jpg);
+    background: linear-gradient(to bottom, #3f3c3d34, #000000b7), url(../img/solucion-bg.jpg);
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: cover;
@@ -166,6 +166,7 @@ p{
     width: 60%;
     display:block;
     margin: 0 35px;
+    margin-bottom: 10px;
 }
 .div-h3{
     display: inline-block;
@@ -179,7 +180,6 @@ p{
     color: red;
 }
 .div-icon a{
-    text-decoration: ;
     color: white;
     font-weight: bold;
 }
@@ -194,5 +194,4 @@ footer{
     height: 80px;
 }
 .footer__div{
-    
 }
