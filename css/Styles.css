@@ -9,7 +9,7 @@ html{
 
 body{
     color: black;
-    background-color: rgb(238, 235, 235);
+    background-color: #f9f9f9;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -43,7 +43,7 @@ header{
     position: absolute;
     bottom: 0;
     width: 100%;
-    fill: rgb(238, 235, 235);
+    fill: #f9f9f9;
 }
 
 /*! END  */
@@ -114,7 +114,7 @@ p i{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color: rgb(238, 235, 235);
+    background-color: #eeebeb;
     height: 100%;
     width: 100%;
     padding: 20px;
